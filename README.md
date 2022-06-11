@@ -1,4 +1,4 @@
-# case Kalender
+# case Calculator
 (school case)
 
 ---
