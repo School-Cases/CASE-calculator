@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+#calculator {
+    width: 320px;
+    background-color: rgb(92, 92, 92);
+}
+
+#putDiv {
+    padding: 0.4em;
+}
+/* display */
+#inputDisplay, #outputDisplay {
+    width: 100%;
+    height: 2rem;
+    background-color: rgb(160, 160, 160);
+    color: white;
+    padding: 1rem;
+}
+
+/* #outputDisplay {
+    width: 100%;
+    height: 2rem;
+    background-color: black;
+    color: white;
+} */
+
+#inputDisplay {
+    text-align: left;
+}
+#outputDisplay {
+    text-align: right;
+}
+#onoffSec {
+    display: flex;
+    justify-content: space-around;
+}
+#onoff {
+    cursor: pointer;
+}
+/* knappar bredvid varandra */
+.number, .operator {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+#C {
+    grid-column: 3;
+}
+
+#nio {
+    grid-column: 2;
+}
+
+/* knappar */
+.button div {
+    border: 1px solid grey;
+    padding: 1rem;
+    background-color: wheat;
+    text-align: center;
+    cursor: pointer;
+}
+
+.operator {
+    margin-top: 10px;
+}
+
+
+/* större skärmar */
+@media screen and (min-width: 768px) {
+
+}
